@@ -10,12 +10,12 @@ SIZE_OF_CANVAS_IN_PIXELS_Y = 400
 
 simulation_params = {
     "proportion":Slider(
-    "Number of Agents",
+    "State Proportion",
     0.5, #default
     0, #min
     1, #max
     0.05, #step
-    description="Choose how many agents initially have State A"
+    description="The proportion of agents that initially have State B"
     ),
 
     "width": NUMBER_OF_CELLS,
